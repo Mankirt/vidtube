@@ -28,5 +28,5 @@ app.use("/api/v1/health", healthCheckRoute);
 app.use("/api/v1/users", userRouter);
 
 
-app.use(errorhandler)
+// app.use(errorhandler)
 export { app };
